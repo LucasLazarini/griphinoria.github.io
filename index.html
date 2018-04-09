@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Green Eyes</title>
+    <link rel="shortcut icon" href="favicon4.ico" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css"  href="estilo.css" />
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+
+    body{
+      background-image: url(http://st.gde-fon.com/wallpapers_original/635666_steklo_kapli_kapli-na-stekle_mokroe-steklo_tekstur_4830x3027_www.Gde-Fon.com.jpg);
+      background-size: 100%;
+      background-repeat:repeat-y;
+    }
+    #cabecalho{
+      background-color: #F5F6F8;
+      filter: opacity(80%);
+      position:absolute;
+      top: 0px;
+      left: 0px;
+      width:100%;
+      height:88px;
+    }
+
+    #logo{
+      background-color: #79C942;
+      filter: opacity(100%);
+      position:absolute;
+      top: 17px;
+      left: 90px;
+      height: 50px;
+      width: 180px;
+      border-radius: 0px 15px 0px 15px;
+      box-shadow: -1px 2px 10px;
+    }
+
+    #text_logo{
+      font-family:  "Gill Sans MT";
+      color: #A52D15;
+      position:absolute;
+      top: -5px;
+      font-size: 13px;
+      padding-left: 18px;;
+      font-weight:bold;
+    }
+
+
+
+    #cabecalho_parte2{
+      background-color: #79C942;
+      position: absolute;
+      top: 0px;
+      height: 88px;
+      width: 20%;
+      left: 80%;
+      border-color: #A52D15;
+    }
+
+    #divisor{
+        background-color: #A52D15;
+        position:absolute;
+        top: 10px;
+        left: 50%;
+        width: 1px;
+        bottom: 7px;
+    }
+
+    #lupa{
+      position: absolute;
+      top: 25px;
+      left: 18%;
+    }
+    #marcador{
+      position: absolute;
+      top: 25px;
+      left: 67%;
+    }
+
+
+    #cha_gengibre{
+      position: absolute;
+      top: 25%;
+      left: 0px;
+    }
+    #bolo_prestigio{
+      position: absolute;
+      top: 795px;
+      left: 0px;
+    }
+    #cocada{
+      position: absolute;
+      top: 25%;
+      left: 50%;
+    }
+    #boloBanana{
+      position: absolute;
+      top: 795px;
+      left: 50%;
+    }
+    #pao_caseiro{
+      position: absolute;
+      top: 1108px;
+      left: 75%;
+    }
+
+
+    #caixa_cha_gengibre{
+      background-color:#F5F6F8;
+      filter: opacity(80%);
+      position: absolute;
+      top: 168px;
+      left: 25%;
+      width: 25%;
+      height: 313px;
+    }
+    #lancheira{
+      background-color:#F5F6F8;
+      filter: opacity(80%);
+      position: absolute;
+      top: 481px;
+      left: 0px;
+      width: 50%;
+      height: 314px;
+    }
+    #caixa_cocada{
+      background-color: #EB7966;
+      filter: opacity(80%);
+      position: absolute;
+      width: 23%;
+      height: 40%;
+      top: 50%;
+      left: 65%;
+      border-radius: 15px 0px 15px 0px;
+    }
+    #caixa_bolo{
+      background-color: #EB7966;
+      filter: opacity(80%);
+      position: absolute;
+      width: 23%;
+      height: 40%;
+      top: 148%;
+      left: 14%;
+      border-radius: 15px 0px 15px 0px;
+    }
+    #caixa_banana{
+      position: absolute;
+      background-color: #F5F6F8;
+      filter: opacity(80%);
+      top: 795px;
+      left: 75%;
+      width: 25%;
+      height: 313px;
+    }
+    #caixa_pao{
+      position: absolute;
+      background-color: #F5F6F4;
+      filter: opacity(80%);
+      top: 1108px;
+      left: 50%;
+      width: 25%;
+      height: 313px;
+    }
+
+    #h2_gengibre{
+      font-family:"Gill Sans MT";
+      color: #E84B3A;
+      position:absolute;
+      font-size: 20px;
+      left: 10%;
+      top: 20%;
+    }
+    #h4_gengibre{
+      font-family:"Gill Sans MT";
+      color: #E84B3A;
+      position:absolute;
+      font-size: 16px;
+      left: 10%;
+      top: 42%;
+    }
+    #h3_gegibre{
+      font-family:"Gill Sans MT";
+      color: #E84B3A;
+      position:absolute;
+      font-size: 20px;
+      left: 10%;
+      top: 60%;
+    }
+
+    #h2_cocada{
+      font-family: "Gill Sans MT";
+      color: white;
+      position: absolute;
+      font-size: 20px;
+      left: 10%;
+      top: 10%;
+    }
+    #h4_cocada{
+      font-family: "Gill Sans MT";
+      color: white;
+      position: absolute;
+      font-size: 15px;
+      left: 10%;
+      top: 27%;
+    }
+    #h3_cocada{
+      font-family: "Gill Sans MT";
+      color: white;
+      position: absolute;
+      font-size: 18px;
+      left: 10%;
+      top: 70%;
+    }
+
+    #h2_lancheira{
+      font-family:"Gill Sans MT";
+      color: #E84B3A;
+      position:absolute;
+      font-size: 25px;
+      left: 20%;
+      top: 20%;
+    }
+    #h5_lancheira{
+      font-family:"Gill Sans MT";
+      color: #E84B3A;
+      position:absolute;
+      font-size: 20px;
+      left: 20%;
+      top: 30%;
+    }
+
+    #h2_bolo{
+      font-family: "Gill Sans MT";
+      color: white;
+      position: absolute;
+      font-size: 20px;
+      left: 10%;
+      top: 10%;
+    }
+    #h4_bolo{
+      font-family: "Gill Sans MT";
+      color: white;
+      position: absolute;
+      font-size: 19px;
+      left: 10%;
+      top: 35%;
+    }
+    #h3_bolo{
+      font-family: "Gill Sans MT";
+      color: white;
+      position: absolute;
+      font-size: 18px;
+      left: 10%;
+      top: 70%;
+    }
+
+    #h2_banana{
+      font-family:"Gill Sans MT";
+      color: #E84B3A;
+      position:absolute;
+      font-size: 20px;
+      left: 10%;
+      top: 20%;
+    }
+    #h4_banana{
+      font-family:"Gill Sans MT";
+      color: #E84B3A;
+      position:absolute;
+      font-size: 16px;
+      left: 10%;
+      top: 42%;
+    }
+    #h3_banana{
+      font-family:"Gill Sans MT";
+      color: #E84B3A;
+      position:absolute;
+      font-size: 20px;
+      left: 10%;
+      top: 80%;
+    }
+
+    #h2_pao{
+      font-family:"Gill Sans MT";
+      color: #E84B3A;
+      position:absolute;
+      font-size: 20px;
+      left: 10%;
+      top: 20%;
+    }
+    #h4_pao{
+      font-family:"Gill Sans MT";
+      color: #E84B3A;
+      position:absolute;
+      font-size: 16px;
+      left: 10%;
+      top: 42%;
+    }
+    #h3_pao{
+      font-family:"Gill Sans MT";
+      color: #E84B3A;
+      position:absolute;
+      font-size: 20px;
+      left: 10%;
+      top: 80%;
+    }
+    </style>
+
+    <style>
+    body{
+      font-family: arial, helvetica, sans-serif;
+      font-size: 12px;
+    }
+    .menu{
+      list-style:none;
+      border:0px solid #c0c0c0;
+      position: absolute;
+      left: 400px;
+      float:left;
+    }
+    .menu li{
+      position:relative;
+      float:left;
+      border-right:2px solid #c0c0c0;
+    }
+    .menu li a{color:#333; text-decoration:none; padding:5px 10px; display:block;}
+
+    .menu li a:hover{
+      background:#333;
+      color:#fff;
+      -moz-box-shadow:0 3px 10px 0 #CCC;
+      -webkit-box-shadow:0 3px 10px 0 #ccc;
+      text-shadow:0px 0px 5px #fff;
+    }
+    .menu li  ul{
+      position:absolute;
+      top:25px;
+      left:0;
+      background-color:#fff;
+      display:none;
+    }
+
+    div.wrapper {
+      background-color:black;
+       width:500px;
+  }
+
+
+  </style>
+  </head>
+
+  <body>
+    <div id="cabecalho"></div>
+
+    <div id="logo">
+      <div id="text_logo">
+        <h1> Green Eyes </h1>
+      </div>
+    </div>
+
+
+
+    <div id="cabecalho_parte2">
+      <img src="lupa.png" style="width: 35px; height: 35px;" id="lupa">
+      <img src="marcador.png" style="width: 35px; height: 35px;" id="marcador">
+      <div id="divisor"> </div>
+    </div>
+
+    <nav>
+      <ul class="menu">
+		    <li><a href="#">Home</a></li>
+		    <li><a href="#">Sobre</a></li>
+	  		   <li><a href="#">O que fazemos?</a>
+	         	  <ul>
+	                <li><a href="#">Web Design</a></li>
+	                <li><a href="#">SEO</a></li>
+	                <li><a href="#">Design</a></li>
+	       		  </ul>
+			     </li>
+		   <li><a href="#">Links</a></li>
+		   <li><a href="#">Contato</a></li>
+     </ul>
+    </nav>
+
+    <img src="chagengibre.jpg" alt="cha-de-gengibre" style="width: 25%" id="cha_gengibre">
+    <img src="bolo-prestigio.jpg" alt="bolo_prestigio" style="width: 50%" id="bolo_prestigio">
+    <img src="cocada.jpg" alt="cocada" style="width: 50%" id="cocada">
+    <img src="bolinho-de-banana.jpg" alt="bolinho de banana" style="width: 25%" id="boloBanana">
+    <img src="pao-caseiro.jpg" alt="pao caseiro" style="width: 25%" id="pao_caseiro">
+
+    <div id="caixa_cha_gengibre">
+      <h2 id="h2_gengibre">
+          CHÁ DE GENGIBRE COM <br>
+          CANELA E CASCA DE LIMÃO<br></h2>
+          <h4 id="h4_gengibre"> Aprenda a fazer esse delicioso chá.</h4>
+          <h3 id="h3_gegibre"> Saiba mais </h3>
+    </div>
+
+    <div id="caixa_cocada">
+      <h2 id="h2_cocada"> COCADA DE MARACUJÁ <br>
+          LIGHT<br></h2>
+          <h4 id="h4_cocada"> Cocada com maracujá e light: não da pra<br>
+          ficar melhor! Aprenda a fazer essa receita<br>
+        deliciosa.</h4>
+          <h3 id="h3_cocada"> Saiba mais </h3>
+    </div>
+
+    <div id="lancheira">
+      <h2 id="h2_lancheira">Lancheira saudavel <br></h2>
+      <h5 id="h5_lancheira"> conheça as melhores opções para <br>
+        rechear a lancheira do seu filho </h5>
+    </div>
+
+    <div id="caixa_bolo">
+      <h2 id="h2_bolo"> BOLINHO DE PRETÍGIO <br>
+          LOWCARB<br></h2>
+          <h4 id="h4_bolo"> É pra se deliciar sem sair da dieta.</h4>
+          <h3 id="h3_bolo"> Saiba mais </h3>
+    </div>
+
+    <div id="caixa_banana">
+      <h2 id="h2_banana"> BOLINHO DE BANANA COM <br>
+          NOZES<br></h2>
+          <h4 id="h4_banana"> Imagina que delícia colocar banana e <br>
+            nozes em um bolinho? Aprenda a <br>
+            receita e experimente essa mistura <br>
+            maravilhosa!</h4>
+          <h3 id="h3_banana"> Saiba mais </h3>
+    </div>
+
+    <div id="caixa_pao">
+      <h2 id="h2_pao"> PÃOZINHO DE <br>
+          MICROONDAS<br></h2>
+          <h4 id="h4_pao"> Descubra como preparar esse delicioso <br>
+            pãozinho caseiro.</h4>
+          <h3 id="h3_pao"> Saiba mais </h3>
+    </div>
+
+  </body>
+</html>
